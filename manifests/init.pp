@@ -1,7 +1,7 @@
 
 class ntp(
 
- String   $package_name         = $::ntp::params::package_name, 
+ String   $packagename         = $::ntp::params::packagename, 
  String   $package_ensure       = $::ntp::params::package_ensure,
  String   $config_name          = $::ntp::params::config_name,
  String   $config_file_mode     = $::ntp::params::config_file_mode,
